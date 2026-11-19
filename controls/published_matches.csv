@@ -1,0 +1,7 @@
+control,n_degs,published_runs,published_runs_of_the_task
+pseudobulk_deseq2_donor_in_design,1328,16,48
+pseudobulk_deseq2_no_donor,1512,9,48
+percell_wilcoxon_norm1e4,826,6,48
+percell_wilcoxon_norm_median,788,0,48
+percell_ttest_norm1e4,3638,1,48
+percell_ttest_norm_median,3627,0,48
