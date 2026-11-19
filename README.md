@@ -20,9 +20,9 @@ Where things are:
 
 | You want to | Look in |
 |---|---|
-| Rerun the 6 controls | `controls/controls.py`, which writes `controls/controls.json` |
+| Rerun the 6 controls | `controls/controls.py`, whose committed output is `controls/controls.json` |
 | Check the published-run counts | `controls/published_matches.csv` |
-| Redraw the figure | `tools/figure_controls.py`, which reads the 2 files in `controls/` |
+| Redraw the figure | `tools/figure_controls.py`. It reads the 2 files in `controls/`, and the committed figure is `figures/controls_vs_window.png` and `.svg` |
 | Read 1 agent repeat | `agent_runs/r1`, `r2` or `r3` (indexed in [agent_runs/README.md](agent_runs/README.md)) and its file in `trajectories/` |
 | See how the agents' prompt was built | `agent_runs/PROMPT.md` |
 | Grade an answer file | `tools/grade_de01.py`. The verdicts for the 3 repeats are in `agent_runs/grades.jsonl` |
