@@ -1,0 +1,25 @@
+{
+  "primary_design": "~ donor + condition",
+  "n_degs_paired": 1328,
+  "n_degs_unpaired": 1512,
+  "donors_kept": [
+    "Donor1",
+    "Donor10",
+    "Donor11",
+    "Donor12",
+    "Donor2",
+    "Donor4",
+    "Donor5",
+    "Donor6",
+    "Donor8",
+    "Donor9"
+  ],
+  "donors_dropped": [
+    "Donor3",
+    "Donor7"
+  ],
+  "n_cells": 1164,
+  "n_pseudobulk_samples": 20,
+  "n_genes_tested": 14464,
+  "n_genes_total": 40352
+}

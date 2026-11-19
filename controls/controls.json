@@ -1,0 +1,51 @@
+{
+ "n_cells": 1164,
+ "n_genes": 14464,
+ "donors_kept": [
+  "Donor1",
+  "Donor10",
+  "Donor11",
+  "Donor12",
+  "Donor2",
+  "Donor4",
+  "Donor5",
+  "Donor6",
+  "Donor8",
+  "Donor9"
+ ],
+ "donors_dropped": [
+  "Donor3",
+  "Donor7"
+ ],
+ "pseudobulk_deseq2_donor_in_design": {
+  "n_degs": 1328,
+  "margin": 0.51,
+  "passed": true
+ },
+ "pseudobulk_deseq2_no_donor": {
+  "n_degs": 1512,
+  "margin": 1.03,
+  "passed": false
+ },
+ "percell_wilcoxon_norm1e4": {
+  "n_degs": 826,
+  "margin": -0.93,
+  "passed": true
+ },
+ "percell_wilcoxon_norm_median": {
+  "n_degs": 788,
+  "margin": -1.03,
+  "passed": false
+ },
+ "percell_ttest_norm1e4": {
+  "n_degs": 3638,
+  "margin": 7.11,
+  "passed": false
+ },
+ "percell_ttest_norm_median": {
+  "n_degs": 3627,
+  "margin": 7.08,
+  "passed": false
+ },
+ "seconds": 45
+}
